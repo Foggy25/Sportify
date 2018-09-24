@@ -1,0 +1,1067 @@
+<!DOCTYPE html>
+<html>
+<head>
+	 <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    
+    <!--Font Awesome-->
+   <script src="https://use.fontawesome.com/60336afcf9.js"></script>
+
+  <!--Google Fonts-->
+   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    
+    <!-- Main CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Sportify - Beisbol</title>
+</head>
+<body>
+<header>
+	  <div class="container">
+        <div class="row">
+          
+          <div class="col-sm-6" id="home">
+            <img src="img/logo.png" alt="Sportify logo" >
+          </div>
+
+          <!--Social Media header-->
+          <div class="col-sm-6">
+            <ul class="social-header list-inline text-right">
+          
+          <!--Facebook-->
+              <li class="list-inline-item">
+                <a href="https://es-la.facebook.com/">
+                 <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+              </li>
+
+              
+          <!--Twitter-->
+        
+              <li class="list-inline-item">
+                <a href="https://twitter.com/login">
+                 <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+              </li>
+ 
+              
+          <!--Instagram-->
+         
+              <li class="list-inline-item">
+                <a href="https://www.instagram.com/?hl=es-la">
+                 <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+              </li>
+
+           
+          <!--Youtube-->
+           
+               <li class="list-inline-item">
+                <a href="https://www.youtube.com/?hl=es-419">
+                 <span class="fa-stack fa-lg">
+                  <i class="fa fa-circle fa-stack-2x"></i>
+                  <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                </span>
+                </a>
+              </li>
+        </ul>  
+      </div>
+    </div>
+  </div>
+
+  <!--Marcadores-->
+
+  <div class="menu-bar text-xs-left">
+    <nav class="container" role="menu">
+      <ul class="menu-list list-inline">
+        <li class="list-inline-item">
+          <a href="index.html">Inicio</a>
+        </li>
+        <li class="list-inline-item">
+          <div class="dropdown">
+
+            <a href="" class="btn btn-ttc dropdown-toggle" role="button" id="dropdown-menu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+              Productos
+            </a>
+            <div class="dropdown-menu" aria-labelledby="dropdown-menu">
+               <a href="baloncesto.html" class="dropdown-item">Baloncesto</a>
+                  <div class="dropdown-divider"></div>
+              <a href="beisbol.html" class="dropdown-item">Beisbol</a>
+                  <div class="dropdown-divider"></div>
+              <a href="futbol.html" class="dropdown-item">Futbol</a>
+                  <div class="dropdown-divider"></div>
+              <a href="surf.html" class="dropdown-item">Surf</a>
+                  <div class="dropdown-divider"></div>
+              <a href="tenis.html" class="dropdown-item">Tenis</a>
+            </div>
+            
+          </div>
+        </li>
+
+        <li class="list-inline-item">
+          <a href="office.html">Contacto</a>
+        </li>
+      </ul>  
+    </nav>    
+  </div>
+
+</header>  
+
+<!--Contenido de la pagina-->
+
+<!--Slider-beisbol-->
+
+<div id="main">
+<div class="container">
+
+  <div id="slider-beisbol" class="carousel slide hidden-md-down" data-ride="carousel">
+    <ol class="carousel-indicators">
+      <li data-target="#slider-beisbol" data-slide-to="0" class="active"></li>
+      <li data-target="#slider-beisbol" data-slide-to="1"></li>
+      <li data-target="#slider-beisbol" data-slide-to="2"></li>
+    </ol>
+    <div class="carousel-inner">
+      
+      <div class="carousel-item active">
+        <img class="d-block w-100" src="img/slider-beisbol1.jpg" alt="First slide">
+      </div>
+     
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/slider-beisbol2.jpg" alt="Second slide">
+      </div>
+      
+      <div class="carousel-item">
+        <img class="d-block w-100" src="img/slider-beisbol3.jpg" alt="Third slide">
+      </div>
+
+    </div>
+    
+    <a class="carousel-control-prev" href="#slider-beisbol" role="button" data-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="carousel-control-next" href="#slider-beisbol" role="button" data-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+ </div>
+
+<!--Menu de productos-->
+
+<div>
+ <div class="menu-bar text-xs-right">
+        <nav class="container" role="menu">
+          <ul class="menu-list list-inline">
+              <li class="list-inline-item">
+                  <a href="#zapatos">Zapatos <strong class="black">/</strong></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#guantes">Guantes <strong class="black">/</strong></a></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#cascos">Cascos <strong class="black">/</strong></a></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#bates">Bates <strong class="black">/</strong></a></a>
+                </li>
+                <li class="list-inline-item">
+                  <a href="#catcher">Equipo de Catcher <strong class="black">/</strong></a></a>
+                </li>
+                 <li class="list-inline-item">
+                  <a href="#gorras">Gorras <strong class="black">/</strong></a></a>
+                </li>
+                 <li class="list-inline-item">
+                  <a href="#camisas">Camisas <strong class="black">/</strong></a></a>
+                </li>
+            </ul>
+        </nav>
+      </div>
+    </div>
+
+<!--Banner tematico-->
+
+ <img src="img/banner-beisbol.jpg"  alt="Campo de beisbol" width="100%" class="">
+		
+<!--Zapatos de Beisbol-->
+<div class="row mar-top-50">
+  <div class="col-md-12">
+    
+    <div class="container">
+    <h3 class="red" id="zapatos">Zapatos de <strong>Beisbol</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+    <div class="row">
+        <div class="col-sm-3">
+          <img src="img/producto28.jpg" alt="Zapatos de beisbol Nike" class="img-fluid">
+          <p class="black bold">Zapatos de beisbol Nike Cleats Blue 2018  <span class="text-muted"><del>180$</del></span> <span class="red">150$</span></p>
+          <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3">
+          <img src="img/producto29.jpg" alt="Zapatos de beisbol Under Armour RM 2018" class="img-fluid">
+        	<p class="black bold">Zapatos de beisbol Under Armour RM 2018  <span class="red">165$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+    
+        <div class="col-sm-3" >
+          <img src="img/producto30.jpg" alt="Zapatos de beisbol Under Armour Heater mid ST" class="img-fluid">
+          <p class="black bold">Zapatos de beisbol Under Armour Heater mid ST <span class="red">140$</span></p>
+          <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-3" >
+          <img src="img/producto31.jpg" alt="Zapatos de beisbol Adidas Adizero AfterBurner" class="img-fluid">
+          <p class="black bold">Zapatos de beisbol Adidas Adizero AfterBurner <span class="text-muted"><del>199$</del></span> <span class="red">160$</span></p>
+          <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  
+  </div>
+</div>
+
+<!--Guantes de beisbol-->
+
+<div class="row mar-top-50">
+  <div class="col-md-12">
+    
+    <div class="container">
+    <h3 class="red" id="guantes"><strong>Guantes</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+    <div class="row">
+        <div class="col-sm-6">
+          <img src="img/producto32.jpg" alt="Guante de beisbol " class="img-fluid">
+          <p class="black bold text-center">Guante de beisbol Rawlings elite series (11.5) <span class="text-muted"><del>200$</del></span> <span class="red">180$</span></p>
+          <button class="btn btn-outline-danger col-6 " data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="col-sm-6">
+          <img src="img/producto33.jpg" alt="Guante de beisbol " class="img-fluid">
+        	<p class="black bold text-center">Guante de beisbol Wilson A2000 series (11.5) <span class="red">150$</span></p>
+          <button class="btn btn-outline-danger  col-6 " data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+  
+  
+  </div>
+</div>
+</div>
+
+<!--Cascos de Beisbol-->
+
+<div class="row mar-top-50">
+  <div class="col-md-12">
+
+	<div class="container">
+    	
+    	<h3 class="red" id="cascos"><strong>Cascos</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+    	
+    	<div class="row">
+	        <div class="col-sm-3">
+	          <img src="img/producto34.jpg" alt="Casco Rawlings R16 series - Negro Matte" class="img-fluid">
+	          <p class="black bold">Casco Rawlings R16 series - Negro Matte <span class="red">90$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+	        </div>
+
+	        <div class="col-sm-3">
+	          <img src="img/producto35.jpg" alt="Casco de beisbol de los Chicago Cubs" class="img-fluid">
+	        	<p class="black bold">Casco de beisbol de los Chicago Cubs <span class="red">95$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+	        </div>
+	    
+	        <div class="col-sm-3" >
+	          <img src="img/producto36.jpg" alt="Casco Rawlings R16 series - Verde Matte" class="img-fluid">
+	          <p class="black bold">Casco Rawlings R16 series - Verde Matte <span class="red">90$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+	        </div>
+
+	        <div class="col-sm-3" >
+	          <img src="img/producto37.jpg" alt="Cosco de beisbol de los Detroit Tigers" class="img-fluid">
+	          <p class="black bold">Cosco de beisbol de los Detroit Tigers <span class="red">95$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+	        </div>
+    	</div>
+  
+  </div>
+</div>
+
+<!--Bates de beisbol-->
+
+<div class="row mar-top-50">
+  <div class="col-md-12">
+
+  <div class="container">
+      
+      <h3 class="red" id="bates"><strong>Bates</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+      
+      <div class="row">
+          <div class="col-sm-3">
+            <img src="img/producto38.jpg" alt="Bate Rawlings 5150 BBCOR" class="img-fluid">
+            <p class="black bold">Bate de beisbol Rawlings 5150 BBCOR <span class="red">80$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <img src="img/producto39.jpg" alt="Bate Wilnon Demarini 2015 NVS Vexxum" class="img-fluid">
+            <p class="black bold">Bate de beisbol Wilson Demarini 2015 NVS Vexxum <span class="text-muted"><del>100$</del></span> <span class="red">85$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-3" >
+            <img src="img/producto40.jpg" alt="Bate Rawlibgs Classic" class="img-fluid">
+            <p class="black bold">Bate de beisbol Rawlings Classic <span class="red">50$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3" >
+            <img src="img/producto41.jpg" alt="Bate de beisbol Wilson Demarini Vexxum 2018 - Azul" class="img-fluid">
+            <p class="black bold">Bate de beisbol Wilson Demarini Vexxum 2018 - Azul <span class="red">90$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+  </div>
+</div>
+
+<!--Equipo de Catcher-->
+
+<div class="row mar-top-50">
+  <div class="col-md-12">
+
+  <div class="container">
+      
+      <h3 class="red" id="catcher">Equipo de  <strong>Catcher</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+      
+      <div class="row">
+          <div class="col-sm-6">
+            <img src="img/producto43.jpg" alt="Equipo de catcher Rawlings Velo. Negro / Naranja" class="img-fluid">
+            <p class="black bold text-center">Equipo de catcher Rawlings Velo. Negro / Naranja <span class="red">299$</span></p>
+            <button class="btn btn-outline-danger col-6" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-6">
+            <img src="img/producto42.jpg" alt="Equipo de catcher Wilson RAW Velo - Negro" class="img-fluid">
+            <p class="black bold text-center">Equipo de catcher Wilson RAW Velo - Negro <span class="text-muted"><del>300$</del></span>  <span class="red">260$</span></p>
+            <button class="btn btn-outline-danger col-6" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+    
+  
+  </div>
+</div>
+
+<!--Gorras-->
+
+<div class="row mar-top-50">
+  <div class="col-md-12">
+
+  <div class="container">
+      
+      <h3 class="red" id="gorras">Gorras de la <strong>Major League Baseball</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+      
+      <div class="row">
+          <div class="col-sm-3">
+            <img src="img/producto44.jpg" alt="Gorra de la MLB - New York Yankees" class="img-fluid">
+            <p class="black bold">Gorra de la MLB - New York Yankees <span class="red">25$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <img src="img/producto45.jpg" alt="Gorra de la MLB - Cincinnati Reds" class="img-fluid">
+            <p class="black bold">Gorra de la MLB - Cincinnati Reds <span class="red">25$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-3" >
+            <img src="img/producto46.jpg" alt="Gorra de la MLB - Atlanta Braves" class="img-fluid">
+            <p class="black bold">Gorra de la MLB - Atlanta Braves <span class="red">25$</span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3" >
+            <img src="img/producto47.jpg" alt="Gorra de la MLB - White Sox" class="img-fluid">
+            <p class="black bold">Gorra de la MLB - White Sox <span class="red">25$</span></p>
+            <br>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+  </div>
+</div>
+
+<!--Camisas-->
+
+<div class="row mar-top-50">
+  <div class="col-md-12">
+
+  <div class="container">
+      
+      <h3 class="red" id="camisas">Camisas de la <strong>Major League Baseball</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+      
+      <div class="row">
+          <div class="col-sm-3">
+            <img src="img/producto48.jpg" alt="Camisa de la MLB para Hombre - New York Mets" class="img-fluid">
+            <p class="black bold">Camisa de la MLB para Hombre - New York Mets <span class="text-muted"><del>40$</del></span> <span class="red">35$ <span class="red">25$</span></span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3">
+            <img src="img/producto49.jpg" alt="Camisa de la MLB para Mujer - Boston Red Sox" class="img-fluid">
+            <p class="black bold">Camisa de la MLB para Mujer - Boston Red Sox <span class="text-muted"><del>40$</del></span> <span class="red">35$ <span class="red">25$</span></span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      
+          <div class="col-sm-3" >
+            <img src="img/producto50.jpg" alt="Camisa de la MLB para Hombre - San Francisco Giants" class="img-fluid">
+            <p class="black bold">Camisa de la MLB para Hombre - San Francisco Giants <span class="text-muted"><del>40$</del></span> <span class="red">35$ <span class="red">25$</span></span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-sm-3" >
+            <img src="img/producto51.jpg" alt="Camisa de la MLB para Mujer - New York Yankees" class="img-fluid">
+            <p class="black bold">Camisa de la MLB para Mujer - New York Yankees <span class="text-muted"><del>40$</del></span> <span class="red">35$ <span class="red">25$</span></span></p>
+            <button class="btn btn-outline-danger" data-toggle="modal" data-target="#f2-modal" type="button">Añadir al Carrito</button>
+
+            <div class="modal fade" id="f2-modal" tabindex="-1" role="dialog" aria-labelledby="f2-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Tu producto ha sido añadido al carrito</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>¡Muchas Gracias por tu compra!</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+      </div>
+  
+  </div>
+</div>
+
+        <!--Barra de comentarios-->
+    <div class="container mar-top-50">
+     
+      <h3 class="red" id=""><strong>Comentarios</strong> <a href="#home" class="text-center"><i class="fa fa-chevron-up black" aria-hidden="true"></i></a><i class="fa fa-shopping-cart pull-right hidden-xs-down black" aria-hidden="true"></i></h3>
+    
+    <div class="row comentarios justify-content-center">
+      <div class="col-sm-8">
+          <form action="" class="form_comentarios d-flex justify-content-end flex-wrap">
+            <textarea name="" id="" placeholder="Comentarios..."></textarea>
+              <button class="btn btn-primary" data-toggle="modal" data-target="#f-modal" type="button">Comentar</button>
+
+            <div class="modal fade" id="f-modal" tabindex="-1" role="dialog" aria-labelledby="f-modal" aria-hidden="true">
+              <div class="modal-dialog">
+               <div class="modal-content">
+              <!--Modal-Header-->
+                <div class="modal-header">
+                  <h5 class="modal-title red" id="">Querido Usuario</h5>
+                    <button class="close" data-dismiss="modal" aria-label="Cerrar">
+                      <span aria-="true">&times;</span>
+                   </button>
+                </div>
+              <!--Modal-Body-->
+                <div class="modal-body">
+                  <p>Tu comentario pasara por una revisión con nuestros moderadores para agregarlo al panel de comentarios</p>
+                  <p>Gracias por formar parte de nuestra comunidad y elegirnos como tu tienda de preferencia</p>
+                </div>
+              </div>
+              </div>
+            </div>
+          </form>
+          <!--Primer comentario-->
+          <div class="media">
+            <img src="img/persona10.jpg" alt="" width="64" height="64" class="img-thumbnail rounded">
+            <div class="media-body">
+              <p class="nombre">Carlos <span>4:30pm, Ayer</span></p>
+              <p class="comentario">
+                Que guantes me recomiendan? Rawlings o Wilson?
+              </p>
+              <div class="botones text-right">
+                <a href="">Responder</a>
+                <a href="">Editar</a>
+                <a href="">Borrar</a>
+          <!--Segundo comentario-->
+              </div>
+                       <div class="media">
+                <img src="img/persona1.jpg" alt="" width="64" height="64" class="img-thumbnail rounded">
+                <div class="media-body">
+                  <p class="nombre">Alfonzo<span>10:00pm, Ayer</span></p>
+                  <p class="comentario">
+                    La verdad ambas marcas son de muy buena calidad, yo diria que el que mas te guste...aunque yo tengo un Wilson de la serie A2000 y no tengo nada de que quejarme, saludos
+                  </p>
+                  <div class="botones text-right">
+                    <a href="">Responder</a>
+                    <a href="">Editar</a>
+                    <a href="">Borrar</a>
+                      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    </div>
+
+
+
+
+
+
+			<!--Sidebars-->
+			<div class="container">
+			<!--Primer Sidebar-->
+			<div class="row mar-top-50 sidebar-zone margin">
+			  <div class="col-sm-4">
+			    <h4 class="red">Información de Contacto</h4>
+			      <p class="white">Para información, dudas o reportes sobre alguna compra hecha contacta con nuestros operadores llamando a <strong>0800-SPORTIFY</strong></p>
+			      <p class="white">Nuestro servicio de atención al cliente esta abierto de Lunes a Viernes desde las 8h hasta las 20h</p>
+			  </div>
+			   
+			<!--Segundo Sidebar-->
+			   <div class=" margin col-sm-4">
+			      <h4 class="red">Visita nuestro blog</h4>
+			        <p class="white">Un lugar donde encontraras todas las <strong>Noticias</strong> referentes al mundo del deporte</p>
+			      
+			      <ul class="list-unstyled">
+			        <li>
+			         <a href="https://sportifynolimits.blogspot.com/2018/02/nike-reinventa-las-clasicas-airmax-con_20.html">Nike reinventa las clásicas AirMax</a>
+			        </li>
+			        <li>
+			          <a href="https://sportifynolimits.blogspot.com/2018/02/ultraboost-y-ultraboost-x-evolucionan.html">UltraBOOST y UltraBOOST X evolucionan</a>
+			        </li>
+			        <li>
+			          <a href="https://sportifynolimits.blogspot.com">Más noticias en el blog</a>
+			       </li>
+			   </ul>
+			  </div>
+
+			<!--Tercer sidebar-->  
+			  <div class="col-sm-4">
+			    <h4 class="red">Sigue nuestras redes</h4>
+			      <ul class="list-unstyled">
+			        <li>
+			          <a href="https://es-la.facebook.com/">Facebook</a>
+			        </li>
+			        <li>
+			          <a href="https://twitter.com/login">Twitter</a>
+			        </li>
+			        <li>
+			         <a href="https://www.instagram.com/?hl=es-la">Instagram</a>
+			        </li>
+			        <li>
+			          <a href="https://www.youtube.com/?hl=es-419">Youtube</a>
+			       </li>
+			      
+			     </ul>
+			    
+			  </div>
+			</div>
+		  </div>
+	   </div>
+     </div>
+   </div>
+ </div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+ 
+             <p class="red"><strong>Sportify</strong> &copy; - Sitio web creado por <a target="_blank" href="https://github.com/Foggy25">Pedro Fernández</a></p>
+
+
+          </div>
+        </div>
+      </div>
+  </footer>
+
+
+
+
+		
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+</body>
+</html>
